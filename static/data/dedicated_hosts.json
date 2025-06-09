@@ -1,0 +1,1369 @@
+{
+  "metadata": {
+    "last_updated": "2025-01-20",
+    "source": "https://aws.amazon.com/ec2/dedicated-hosts/pricing/",
+    "version": "1.0",
+    "note": "Based on AWS official Dedicated Host Attributes table"
+  },
+  "instance_families": {
+    "a1": {
+      "sockets": 1,
+      "total_cores": 16,
+      "core_per_size": {
+        "medium": 1,
+        "large": 2,
+        "xlarge": 4,
+        "2xlarge": 8,
+        "4xlarge": 16,
+        "metal": 16
+      }
+    },
+    "c3": {
+      "sockets": 2,
+      "total_cores": 20,
+      "core_per_size": {
+        "large": 1.25,
+        "xlarge": 2.5,
+        "2xlarge": 5,
+        "4xlarge": 10,
+        "8xlarge": 20
+      }
+    },
+    "c4": {
+      "sockets": 2,
+      "total_cores": 20,
+      "core_per_size": {
+        "large": 1.25,
+        "xlarge": 2.5,
+        "2xlarge": 5,
+        "4xlarge": 10,
+        "8xlarge": 20
+      }
+    },
+    "c5": {
+      "sockets": 2,
+      "total_cores": 36,
+      "core_per_size": {
+        "large": 1,
+        "xlarge": 2,
+        "2xlarge": 4.5,
+        "4xlarge": 9,
+        "9xlarge": 18,
+        "18xlarge": 36
+      }
+    },
+    "c5d": {
+      "sockets": 2,
+      "total_cores": 36,
+      "core_per_size": {
+        "large": 1,
+        "xlarge": 2,
+        "2xlarge": 4.5,
+        "4xlarge": 9,
+        "9xlarge": 18,
+        "18xlarge": 36
+      }
+    },
+    "c5n": {
+      "sockets": 2,
+      "total_cores": 36,
+      "core_per_size": {
+        "large": 1,
+        "xlarge": 2,
+        "2xlarge": 4.5,
+        "4xlarge": 9,
+        "9xlarge": 18,
+        "18xlarge": 36,
+        "metal": 36
+      }
+    },
+    "c6a": {
+      "sockets": 2,
+      "total_cores": 96,
+      "core_per_size": {
+        "large": 1,
+        "xlarge": 2,
+        "2xlarge": 4,
+        "4xlarge": 8,
+        "8xlarge": 16,
+        "12xlarge": 24,
+        "16xlarge": 32,
+        "24xlarge": 48,
+        "32xlarge": 64,
+        "48xlarge": 96,
+        "metal": 96
+      }
+    },
+    "c6g": {
+      "sockets": 1,
+      "total_cores": 64,
+      "core_per_size": {
+        "medium": 1,
+        "large": 2,
+        "xlarge": 4,
+        "2xlarge": 8,
+        "4xlarge": 16,
+        "8xlarge": 32,
+        "12xlarge": 48,
+        "16xlarge": 64,
+        "metal": 64
+      }
+    },
+    "c6gd": {
+      "sockets": 1,
+      "total_cores": 64,
+      "core_per_size": {
+        "medium": 1,
+        "large": 2,
+        "xlarge": 4,
+        "2xlarge": 8,
+        "4xlarge": 16,
+        "8xlarge": 32,
+        "12xlarge": 48,
+        "16xlarge": 64,
+        "metal": 64
+      }
+    },
+    "c6gn": {
+      "sockets": 1,
+      "total_cores": 64,
+      "core_per_size": {
+        "medium": 1,
+        "large": 2,
+        "xlarge": 4,
+        "2xlarge": 8,
+        "4xlarge": 16,
+        "8xlarge": 32,
+        "12xlarge": 48,
+        "16xlarge": 64
+      }
+    },
+    "c6i": {
+      "sockets": 2,
+      "total_cores": 64,
+      "core_per_size": {
+        "large": 1,
+        "xlarge": 2,
+        "2xlarge": 4,
+        "4xlarge": 8,
+        "8xlarge": 16,
+        "12xlarge": 24,
+        "16xlarge": 32,
+        "24xlarge": 48,
+        "32xlarge": 64,
+        "metal": 64
+      }
+    },
+    "c6id": {
+      "sockets": 2,
+      "total_cores": 64,
+      "core_per_size": {
+        "large": 1,
+        "xlarge": 2,
+        "2xlarge": 4,
+        "4xlarge": 8,
+        "8xlarge": 16,
+        "12xlarge": 24,
+        "16xlarge": 32,
+        "24xlarge": 48,
+        "32xlarge": 64,
+        "metal": 64
+      }
+    },
+    "c6in": {
+      "sockets": 2,
+      "total_cores": 64,
+      "core_per_size": {
+        "large": 1,
+        "xlarge": 2,
+        "2xlarge": 4,
+        "4xlarge": 8,
+        "8xlarge": 16,
+        "12xlarge": 24,
+        "16xlarge": 32,
+        "24xlarge": 48,
+        "32xlarge": 64,
+        "metal": 64
+      }
+    },
+    "c7a": {
+      "sockets": 2,
+      "total_cores": 192,
+      "core_per_size": {
+        "medium": 1,
+        "large": 2,
+        "xlarge": 4,
+        "2xlarge": 8,
+        "4xlarge": 16,
+        "8xlarge": 32,
+        "12xlarge": 48,
+        "16xlarge": 64,
+        "24xlarge": 96,
+        "32xlarge": 128,
+        "48xlarge": 192,
+        "metal-48xl": 192
+      }
+    },
+    "c7g": {
+      "sockets": 3,
+      "total_cores": 192,
+      "core_per_size": {
+        "medium": 1,
+        "large": 2,
+        "xlarge": 4,
+        "2xlarge": 8,
+        "4xlarge": 16,
+        "8xlarge": 32,
+        "12xlarge": 48,
+        "16xlarge": 64,
+        "metal": 64
+      }
+    },
+    "c7gd": {
+      "sockets": 3,
+      "total_cores": 192,
+      "core_per_size": {
+        "medium": 1,
+        "large": 2,
+        "xlarge": 4,
+        "2xlarge": 8,
+        "4xlarge": 16,
+        "8xlarge": 32,
+        "12xlarge": 48,
+        "16xlarge": 64,
+        "metal": 64
+      }
+    },
+    "c7gn": {
+      "sockets": 3,
+      "total_cores": 192,
+      "core_per_size": {
+        "medium": 1,
+        "large": 2,
+        "xlarge": 4,
+        "2xlarge": 8,
+        "4xlarge": 16,
+        "8xlarge": 32,
+        "12xlarge": 48,
+        "16xlarge": 64,
+        "metal": 64
+      }
+    },
+    "c7i": {
+      "sockets": 2,
+      "total_cores": 96,
+      "core_per_size": {
+        "large": 2,
+        "xlarge": 4,
+        "2xlarge": 8,
+        "4xlarge": 16,
+        "8xlarge": 32,
+        "12xlarge": 48,
+        "16xlarge": 64,
+        "metal-24xl": 96
+      }
+    },
+    "c8g": {
+      "sockets": 2,
+      "total_cores": 192,
+      "core_per_size": {
+        "medium": 1,
+        "large": 2,
+        "xlarge": 4,
+        "2xlarge": 8,
+        "4xlarge": 16,
+        "8xlarge": 32,
+        "12xlarge": 48,
+        "16xlarge": 64,
+        "24xlarge": 96,
+        "48xlarge": 192,
+        "metal-24xl": 96,
+        "metal-48xl": 192
+      }
+    },
+    "c8gd": {
+      "sockets": 2,
+      "total_cores": 192,
+      "core_per_size": {
+        "medium": 1,
+        "large": 2,
+        "xlarge": 4,
+        "2xlarge": 8,
+        "4xlarge": 16,
+        "8xlarge": 32,
+        "12xlarge": 48,
+        "16xlarge": 64,
+        "24xlarge": 96,
+        "48xlarge": 192,
+        "metal-24xl": 96,
+        "metal-48xl": 192
+      }
+    },
+    "d2": {
+      "sockets": 2,
+      "total_cores": 24,
+      "core_per_size": {
+        "xlarge": 3,
+        "2xlarge": 6,
+        "4xlarge": 12,
+        "8xlarge": 24
+      }
+    },
+    "f1": {
+      "sockets": 2,
+      "total_cores": 16,
+      "core_per_size": {
+        "16xlarge": 16
+      }
+    },
+    "g2": {
+      "sockets": 2,
+      "total_cores": 16,
+      "core_per_size": {
+        "2xlarge": 4,
+        "8xlarge": 16
+      }
+    },
+    "g3": {
+      "sockets": 2,
+      "total_cores": 36,
+      "core_per_size": {
+        "4xlarge": 9,
+        "8xlarge": 18,
+        "16xlarge": 36
+      }
+    },
+    "g4dn": {
+      "sockets": 2,
+      "total_cores": 48,
+      "core_per_size": {
+        "12xlarge": 24,
+        "metal": 48
+      }
+    },
+    "g4ad": {
+      "sockets": 2,
+      "total_cores": 96,
+      "core_per_size": {
+        "4xlarge": 8,
+        "8xlarge": 16
+      }
+    },
+    "g5": {
+      "sockets": 2,
+      "total_cores": 96,
+      "core_per_size": {
+        "24xlarge": 48,
+        "48xlarge": 96
+      }
+    },
+    "g5g": {
+      "sockets": 1,
+      "total_cores": 64,
+      "core_per_size": {
+        "metal": 64
+      }
+    },
+    "h1": {
+      "sockets": 2,
+      "total_cores": 36,
+      "core_per_size": {
+        "2xlarge": 4.5,
+        "4xlarge": 9,
+        "8xlarge": 18,
+        "16xlarge": 36
+      }
+    },
+    "i2": {
+      "sockets": 2,
+      "total_cores": 20,
+      "core_per_size": {
+        "xlarge": 2.5,
+        "2xlarge": 5,
+        "4xlarge": 10,
+        "8xlarge": 20,
+        "16xlarge": 20
+      }
+    },
+    "i3": {
+      "sockets": 2,
+      "total_cores": 36,
+      "core_per_size": {
+        "large": 1.125,
+        "xlarge": 2.25,
+        "2xlarge": 4.5,
+        "4xlarge": 9,
+        "8xlarge": 18,
+        "16xlarge": 36,
+        "metal": 36
+      }
+    },
+    "i3en": {
+      "sockets": 2,
+      "total_cores": 48,
+      "core_per_size": {
+        "large": 1,
+        "xlarge": 2,
+        "2xlarge": 4,
+        "3xlarge": 6,
+        "6xlarge": 12,
+        "12xlarge": 24,
+        "24xlarge": 48,
+        "metal": 48
+      }
+    },
+    "i4i": {
+      "sockets": 2,
+      "total_cores": 64,
+      "core_per_size": {
+        "large": 1,
+        "xlarge": 2,
+        "2xlarge": 4,
+        "4xlarge": 8,
+        "8xlarge": 16,
+        "16xlarge": 32,
+        "32xlarge": 64
+      }
+    },
+    "i4g": {
+      "sockets": 1,
+      "total_cores": 64,
+      "core_per_size": {
+        "large": 2,
+        "xlarge": 4,
+        "2xlarge": 8,
+        "4xlarge": 16,
+        "8xlarge": 32,
+        "16xlarge": 64
+      }
+    },
+    "i7i": {
+      "sockets": 2,
+      "total_cores": 96,
+      "core_per_size": {
+        "large": 1,
+        "xlarge": 2,
+        "2xlarge": 4,
+        "4xlarge": 8,
+        "8xlarge": 16,
+        "12xlarge": 24,
+        "16xlarge": 32,
+        "24xlarge": 48,
+        "48xlarge": 96,
+        "metal-24xl": 48,
+        "metal-48xl": 96
+      }
+    },
+    "i7ie": {
+      "sockets": 2,
+      "total_cores": 96,
+      "core_per_size": {
+        "large": 1,
+        "xlarge": 2,
+        "2xlarge": 4,
+        "3xlarge": 6,
+        "6xlarge": 12,
+        "12xlarge": 24,
+        "24xlarge": 48,
+        "metal-24xl": 48,
+        "metal-48xl": 96
+      }
+    },
+    "i8g": {
+      "sockets": 2,
+      "total_cores": 192,
+      "core_per_size": {
+        "large": 2,
+        "xlarge": 4,
+        "2xlarge": 8,
+        "4xlarge": 16,
+        "8xlarge": 32,
+        "12xlarge": 48,
+        "16xlarge": 64,
+        "24xlarge": 96,
+        "48xlarge": 192,
+        "metal-24xl": 96
+      }
+    },
+    "inf1": {
+      "sockets": 2,
+      "total_cores": 48,
+      "core_per_size": {
+        "6xlarge": 12,
+        "24xlarge": 48
+      }
+    },
+    "mac1": {
+      "sockets": 1,
+      "total_cores": 6,
+      "core_per_size": {
+        "metal": 6
+      }
+    },
+    "mac2": {
+      "sockets": 1,
+      "total_cores": 8,
+      "core_per_size": {
+        "metal": 8
+      }
+    },
+    "m3": {
+      "sockets": 2,
+      "total_cores": 20,
+      "core_per_size": {
+        "medium": 0.625,
+        "large": 1.25,
+        "xlarge": 2.5,
+        "2xlarge": 5
+      }
+    },
+    "m4": {
+      "sockets": 2,
+      "total_cores": 24,
+      "core_per_size": {
+        "large": 1.09,
+        "xlarge": 2.18,
+        "2xlarge": 4.8,
+        "4xlarge": 12,
+        "10xlarge": 24
+      }
+    },
+    "m5": {
+      "sockets": 2,
+      "total_cores": 48,
+      "core_per_size": {
+        "large": 1,
+        "xlarge": 2,
+        "2xlarge": 4,
+        "4xlarge": 8,
+        "8xlarge": 24,
+        "12xlarge": 24,
+        "16xlarge": 32,
+        "24xlarge": 48,
+        "metal": 48
+      }
+    },
+    "m5d": {
+      "sockets": 2,
+      "total_cores": 48,
+      "core_per_size": {
+        "large": 1,
+        "xlarge": 2,
+        "2xlarge": 4,
+        "4xlarge": 8,
+        "8xlarge": 24,
+        "12xlarge": 24,
+        "16xlarge": 32,
+        "24xlarge": 48,
+        "metal": 48
+      }
+    },
+    "m5dn": {
+      "sockets": 2,
+      "total_cores": 48,
+      "core_per_size": {
+        "large": 1,
+        "xlarge": 2,
+        "2xlarge": 4,
+        "4xlarge": 8,
+        "8xlarge": 24,
+        "12xlarge": 24,
+        "16xlarge": 32,
+        "24xlarge": 48,
+        "metal": 48
+      }
+    },
+    "m5n": {
+      "sockets": 2,
+      "total_cores": 48,
+      "core_per_size": {
+        "large": 1,
+        "xlarge": 2,
+        "2xlarge": 4,
+        "4xlarge": 8,
+        "8xlarge": 24,
+        "12xlarge": 24,
+        "16xlarge": 32,
+        "24xlarge": 48,
+        "metal": 48
+      }
+    },
+    "m5zn": {
+      "sockets": 2,
+      "total_cores": 24,
+      "core_per_size": {
+        "large": 1,
+        "xlarge": 2,
+        "2xlarge": 4,
+        "3xlarge": 6,
+        "6xlarge": 12,
+        "12xlarge": 24
+      }
+    },
+    "m6a": {
+      "sockets": 2,
+      "total_cores": 96,
+      "core_per_size": {
+        "large": 1,
+        "xlarge": 2,
+        "2xlarge": 4,
+        "4xlarge": 8,
+        "8xlarge": 16,
+        "12xlarge": 24,
+        "16xlarge": 32,
+        "24xlarge": 48,
+        "32xlarge": 64,
+        "48xlarge": 96,
+        "metal": 96
+      }
+    },
+    "m6g": {
+      "sockets": 1,
+      "total_cores": 64,
+      "core_per_size": {
+        "medium": 1,
+        "large": 2,
+        "xlarge": 4,
+        "2xlarge": 8,
+        "4xlarge": 16,
+        "8xlarge": 32,
+        "12xlarge": 48,
+        "16xlarge": 64,
+        "metal": 64
+      }
+    },
+    "m6gd": {
+      "sockets": 1,
+      "total_cores": 64,
+      "core_per_size": {
+        "medium": 1,
+        "large": 2,
+        "xlarge": 4,
+        "2xlarge": 8,
+        "4xlarge": 16,
+        "8xlarge": 32,
+        "12xlarge": 48,
+        "16xlarge": 64,
+        "metal": 64
+      }
+    },
+    "m6i": {
+      "sockets": 2,
+      "total_cores": 64,
+      "core_per_size": {
+        "large": 1,
+        "xlarge": 2,
+        "2xlarge": 4,
+        "4xlarge": 8,
+        "8xlarge": 16,
+        "12xlarge": 24,
+        "16xlarge": 32,
+        "24xlarge": 48,
+        "32xlarge": 64,
+        "metal": 64
+      }
+    },
+    "m6id": {
+      "sockets": 2,
+      "total_cores": 64,
+      "core_per_size": {
+        "large": 1,
+        "xlarge": 2,
+        "2xlarge": 4,
+        "4xlarge": 8,
+        "8xlarge": 16,
+        "12xlarge": 24,
+        "16xlarge": 32,
+        "24xlarge": 48,
+        "32xlarge": 64,
+        "metal": 64
+      }
+    },
+    "m6idn": {
+      "sockets": 2,
+      "total_cores": 64,
+      "core_per_size": {
+        "large": 1,
+        "xlarge": 2,
+        "2xlarge": 4,
+        "4xlarge": 8,
+        "8xlarge": 16,
+        "12xlarge": 24,
+        "16xlarge": 32,
+        "24xlarge": 48,
+        "32xlarge": 64,
+        "metal": 64
+      }
+    },
+    "m6in": {
+      "sockets": 2,
+      "total_cores": 64,
+      "core_per_size": {
+        "large": 1,
+        "xlarge": 2,
+        "2xlarge": 4,
+        "4xlarge": 8,
+        "8xlarge": 16,
+        "12xlarge": 24,
+        "16xlarge": 32,
+        "24xlarge": 48,
+        "32xlarge": 64,
+        "metal": 64
+      }
+    },
+    "m7a": {
+      "sockets": 2,
+      "total_cores": 192,
+      "core_per_size": {
+        "medium": 1,
+        "large": 2,
+        "xlarge": 4,
+        "2xlarge": 8,
+        "4xlarge": 16,
+        "8xlarge": 32,
+        "12xlarge": 48,
+        "16xlarge": 64,
+        "24xlarge": 96,
+        "32xlarge": 128,
+        "48xlarge": 192,
+        "metal-48xl": 192
+      }
+    },
+    "m7g": {
+      "sockets": 3,
+      "total_cores": 192,
+      "core_per_size": {
+        "medium": 1,
+        "large": 2,
+        "xlarge": 4,
+        "2xlarge": 8,
+        "4xlarge": 16,
+        "8xlarge": 32,
+        "12xlarge": 48,
+        "16xlarge": 64,
+        "metal": 64
+      }
+    },
+    "m7gd": {
+      "sockets": 3,
+      "total_cores": 192,
+      "core_per_size": {
+        "medium": 1,
+        "large": 2,
+        "xlarge": 4,
+        "2xlarge": 8,
+        "4xlarge": 16,
+        "8xlarge": 32,
+        "12xlarge": 48,
+        "16xlarge": 64,
+        "metal": 64
+      }
+    },
+    "m7i": {
+      "sockets": 2,
+      "total_cores": 96,
+      "core_per_size": {
+        "large": 2,
+        "xlarge": 4,
+        "2xlarge": 8,
+        "4xlarge": 16,
+        "8xlarge": 32,
+        "12xlarge": 48,
+        "16xlarge": 64,
+        "metal-24xl": 96
+      }
+    },
+    "m8g": {
+      "sockets": 2,
+      "total_cores": 192,
+      "core_per_size": {
+        "medium": 1,
+        "large": 2,
+        "xlarge": 4,
+        "2xlarge": 8,
+        "4xlarge": 16,
+        "8xlarge": 32,
+        "12xlarge": 48,
+        "16xlarge": 64,
+        "24xlarge": 96,
+        "48xlarge": 192,
+        "metal-24xl": 96,
+        "metal-48xl": 192
+      }
+    },
+    "m8gd": {
+      "sockets": 2,
+      "total_cores": 192,
+      "core_per_size": {
+        "medium": 1,
+        "large": 2,
+        "xlarge": 4,
+        "2xlarge": 8,
+        "4xlarge": 16,
+        "8xlarge": 32,
+        "12xlarge": 48,
+        "16xlarge": 64,
+        "24xlarge": 96,
+        "48xlarge": 192,
+        "metal-24xl": 96,
+        "metal-48xl": 192
+      }
+    },
+    "p2": {
+      "sockets": 2,
+      "total_cores": 36,
+      "core_per_size": {
+        "xlarge": 2.25,
+        "8xlarge": 18,
+        "16xlarge": 36
+      }
+    },
+    "p3": {
+      "sockets": 2,
+      "total_cores": 36,
+      "core_per_size": {
+        "2xlarge": 4.5,
+        "8xlarge": 18,
+        "16xlarge": 36
+      }
+    },
+    "p3dn": {
+      "sockets": 2,
+      "total_cores": 96,
+      "core_per_size": {
+        "24xlarge": 96
+      }
+    },
+    "p4d": {
+      "sockets": 2,
+      "total_cores": 96,
+      "core_per_size": {
+        "24xlarge": 96
+      }
+    },
+    "p4de": {
+      "sockets": 2,
+      "total_cores": 96,
+      "core_per_size": {
+        "24xlarge": 96
+      }
+    },
+    "r3": {
+      "sockets": 2,
+      "total_cores": 20,
+      "core_per_size": {
+        "large": 1.25,
+        "xlarge": 2.5,
+        "2xlarge": 5,
+        "4xlarge": 10,
+        "8xlarge": 20
+      }
+    },
+    "r4": {
+      "sockets": 2,
+      "total_cores": 36,
+      "core_per_size": {
+        "large": 1.125,
+        "xlarge": 2.25,
+        "2xlarge": 4.5,
+        "4xlarge": 9,
+        "8xlarge": 18,
+        "16xlarge": 36
+      }
+    },
+    "r5": {
+      "sockets": 2,
+      "total_cores": 48,
+      "core_per_size": {
+        "large": 1,
+        "xlarge": 2,
+        "2xlarge": 4,
+        "4xlarge": 8,
+        "8xlarge": 24,
+        "12xlarge": 24,
+        "16xlarge": 32,
+        "24xlarge": 48,
+        "metal": 48
+      }
+    },
+    "r5b": {
+      "sockets": 2,
+      "total_cores": 48,
+      "core_per_size": {
+        "large": 1,
+        "xlarge": 2,
+        "2xlarge": 4,
+        "4xlarge": 8,
+        "8xlarge": 24,
+        "12xlarge": 24,
+        "16xlarge": 32,
+        "24xlarge": 48,
+        "metal": 48
+      }
+    },
+    "r5d": {
+      "sockets": 2,
+      "total_cores": 48,
+      "core_per_size": {
+        "large": 1,
+        "xlarge": 2,
+        "2xlarge": 4,
+        "4xlarge": 8,
+        "8xlarge": 24,
+        "12xlarge": 24,
+        "16xlarge": 32,
+        "24xlarge": 48,
+        "metal": 48
+      }
+    },
+    "r5dn": {
+      "sockets": 2,
+      "total_cores": 48,
+      "core_per_size": {
+        "large": 1,
+        "xlarge": 2,
+        "2xlarge": 4,
+        "4xlarge": 8,
+        "8xlarge": 24,
+        "12xlarge": 24,
+        "16xlarge": 32,
+        "24xlarge": 48,
+        "metal": 48
+      }
+    },
+    "r5n": {
+      "sockets": 2,
+      "total_cores": 48,
+      "core_per_size": {
+        "large": 1,
+        "xlarge": 2,
+        "2xlarge": 4,
+        "4xlarge": 8,
+        "8xlarge": 24,
+        "12xlarge": 24,
+        "16xlarge": 32,
+        "24xlarge": 48,
+        "metal": 48
+      }
+    },
+    "r6a": {
+      "sockets": 2,
+      "total_cores": 96,
+      "core_per_size": {
+        "large": 1,
+        "xlarge": 2,
+        "2xlarge": 4,
+        "4xlarge": 8,
+        "8xlarge": 16,
+        "12xlarge": 24,
+        "16xlarge": 32,
+        "24xlarge": 48,
+        "32xlarge": 64,
+        "48xlarge": 96,
+        "metal": 96
+      }
+    },
+    "r6g": {
+      "sockets": 1,
+      "total_cores": 64,
+      "core_per_size": {
+        "medium": 1,
+        "large": 2,
+        "xlarge": 4,
+        "2xlarge": 8,
+        "4xlarge": 16,
+        "8xlarge": 32,
+        "12xlarge": 48,
+        "16xlarge": 64,
+        "metal": 64
+      }
+    },
+    "r6gd": {
+      "sockets": 1,
+      "total_cores": 64,
+      "core_per_size": {
+        "medium": 1,
+        "large": 2,
+        "xlarge": 4,
+        "2xlarge": 8,
+        "4xlarge": 16,
+        "8xlarge": 32,
+        "12xlarge": 48,
+        "16xlarge": 64,
+        "metal": 64
+      }
+    },
+    "r6i": {
+      "sockets": 2,
+      "total_cores": 64,
+      "core_per_size": {
+        "large": 1,
+        "xlarge": 2,
+        "2xlarge": 4,
+        "4xlarge": 8,
+        "8xlarge": 16,
+        "12xlarge": 24,
+        "16xlarge": 32,
+        "24xlarge": 48,
+        "32xlarge": 64,
+        "metal": 64
+      }
+    },
+    "r6id": {
+      "sockets": 2,
+      "total_cores": 64,
+      "core_per_size": {
+        "large": 1,
+        "xlarge": 2,
+        "2xlarge": 4,
+        "4xlarge": 8,
+        "8xlarge": 16,
+        "12xlarge": 24,
+        "16xlarge": 32,
+        "24xlarge": 48,
+        "32xlarge": 64,
+        "metal": 64
+      }
+    },
+    "r6idn": {
+      "sockets": 2,
+      "total_cores": 64,
+      "core_per_size": {
+        "large": 1,
+        "xlarge": 2,
+        "2xlarge": 4,
+        "4xlarge": 8,
+        "8xlarge": 16,
+        "12xlarge": 24,
+        "16xlarge": 32,
+        "24xlarge": 48,
+        "32xlarge": 64,
+        "metal": 64
+      }
+    },
+    "r6in": {
+      "sockets": 2,
+      "total_cores": 64,
+      "core_per_size": {
+        "large": 1,
+        "xlarge": 2,
+        "2xlarge": 4,
+        "4xlarge": 8,
+        "8xlarge": 16,
+        "12xlarge": 24,
+        "16xlarge": 32,
+        "24xlarge": 48,
+        "32xlarge": 64,
+        "metal": 64
+      }
+    },
+    "r7a": {
+      "sockets": 2,
+      "total_cores": 192,
+      "core_per_size": {
+        "medium": 1,
+        "large": 2,
+        "xlarge": 4,
+        "2xlarge": 8,
+        "4xlarge": 16,
+        "8xlarge": 32,
+        "12xlarge": 48,
+        "16xlarge": 64,
+        "24xlarge": 96,
+        "32xlarge": 128,
+        "48xlarge": 192,
+        "metal-48xl": 192
+      }
+    },
+    "r7g": {
+      "sockets": 3,
+      "total_cores": 192,
+      "core_per_size": {
+        "medium": 1,
+        "large": 2,
+        "xlarge": 4,
+        "2xlarge": 8,
+        "4xlarge": 16,
+        "8xlarge": 32,
+        "12xlarge": 48,
+        "16xlarge": 64,
+        "metal": 64
+      }
+    },
+    "r7gd": {
+      "sockets": 3,
+      "total_cores": 192,
+      "core_per_size": {
+        "medium": 1,
+        "large": 2,
+        "xlarge": 4,
+        "2xlarge": 8,
+        "4xlarge": 16,
+        "8xlarge": 32,
+        "12xlarge": 48,
+        "16xlarge": 64,
+        "metal": 64
+      }
+    },
+    "r7i": {
+      "sockets": 2,
+      "total_cores": 96,
+      "core_per_size": {
+        "large": 2,
+        "xlarge": 4,
+        "2xlarge": 8,
+        "4xlarge": 16,
+        "8xlarge": 32,
+        "12xlarge": 48,
+        "16xlarge": 64,
+        "metal-24xl": 96
+      }
+    },
+    "r7iz": {
+      "sockets": 2,
+      "total_cores": 64,
+      "core_per_size": {
+        "large": 1,
+        "xlarge": 2,
+        "2xlarge": 4,
+        "4xlarge": 8,
+        "8xlarge": 16,
+        "12xlarge": 24,
+        "metal-16xl": 32,
+        "metal-32xl": 64
+      }
+    },
+    "r8g": {
+      "sockets": 2,
+      "total_cores": 192,
+      "core_per_size": {
+        "medium": 1,
+        "large": 2,
+        "xlarge": 4,
+        "2xlarge": 8,
+        "4xlarge": 16,
+        "8xlarge": 32,
+        "12xlarge": 48,
+        "16xlarge": 64,
+        "24xlarge": 96,
+        "48xlarge": 192,
+        "metal-24xl": 96,
+        "metal-48xl": 192
+      }
+    },
+    "r8gd": {
+      "sockets": 2,
+      "total_cores": 192,
+      "core_per_size": {
+        "medium": 1,
+        "large": 2,
+        "xlarge": 4,
+        "2xlarge": 8,
+        "4xlarge": 16,
+        "8xlarge": 32,
+        "12xlarge": 48,
+        "16xlarge": 64,
+        "24xlarge": 96,
+        "48xlarge": 192,
+        "metal-24xl": 96,
+        "metal-48xl": 192
+      }
+    },
+    "t3": {
+      "sockets": 2,
+      "total_cores": 48,
+      "core_per_size": {
+        "nano": 0.25,
+        "micro": 0.25,
+        "small": 0.25,
+        "medium": 0.25,
+        "large": 0.5,
+        "xlarge": 1,
+        "2xlarge": 2
+      }
+    },
+    "x1": {
+      "sockets": 4,
+      "total_cores": 72,
+      "core_per_size": {
+        "16xlarge": 36,
+        "32xlarge": 72
+      }
+    },
+    "x1e": {
+      "sockets": 4,
+      "total_cores": 72,
+      "core_per_size": {
+        "xlarge": 2.25,
+        "2xlarge": 4.5,
+        "4xlarge": 9,
+        "8xlarge": 18,
+        "16xlarge": 36,
+        "32xlarge": 72
+      }
+    },
+    "x2gd": {
+      "sockets": 1,
+      "total_cores": 64,
+      "core_per_size": {
+        "medium": 1,
+        "large": 2,
+        "xlarge": 4,
+        "2xlarge": 8,
+        "4xlarge": 16,
+        "8xlarge": 32,
+        "12xlarge": 48,
+        "16xlarge": 64,
+        "metal": 64
+      }
+    },
+    "x2idn": {
+      "sockets": 2,
+      "total_cores": 64,
+      "core_per_size": {
+        "16xlarge": 32,
+        "24xlarge": 48,
+        "32xlarge": 64,
+        "metal": 64
+      }
+    },
+    "x2iedn": {
+      "sockets": 2,
+      "total_cores": 64,
+      "core_per_size": {
+        "xlarge": 2,
+        "2xlarge": 4,
+        "4xlarge": 8,
+        "8xlarge": 32,
+        "16xlarge": 32,
+        "24xlarge": 48,
+        "32xlarge": 64,
+        "metal": 64
+      }
+    },
+    "x2iezn": {
+      "sockets": 2,
+      "total_cores": 24,
+      "core_per_size": {
+        "2xlarge": 4,
+        "4xlarge": 8,
+        "6xlarge": 12,
+        "8xlarge": 16,
+        "12xlarge": 24,
+        "metal": 24
+      }
+    },
+    "x8g": {
+      "sockets": 2,
+      "total_cores": 192,
+      "core_per_size": {
+        "medium": 1,
+        "large": 2,
+        "xlarge": 4,
+        "2xlarge": 8,
+        "4xlarge": 16,
+        "8xlarge": 32,
+        "12xlarge": 48,
+        "16xlarge": 64,
+        "24xlarge": 96,
+        "48xlarge": 192,
+        "metal-24xl": 96,
+        "metal-48xl": 192
+      }
+    },
+    "z1d": {
+      "sockets": 2,
+      "total_cores": 24,
+      "core_per_size": {
+        "large": 1,
+        "xlarge": 2,
+        "2xlarge": 4,
+        "3xlarge": 6,
+        "6xlarge": 12,
+        "12xlarge": 24
+      }
+    },
+    "u-6tb1": {
+      "sockets": 8,
+      "total_cores": 224,
+      "core_per_size": {
+        "112xlarge": 224,
+        "metal": 224
+      }
+    },
+    "u-9tb1": {
+      "sockets": 8,
+      "total_cores": 224,
+      "core_per_size": {
+        "112xlarge": 224,
+        "metal": 224
+      }
+    },
+    "u-12tb1": {
+      "sockets": 8,
+      "total_cores": 224,
+      "core_per_size": {
+        "112xlarge": 224,
+        "metal": 224
+      }
+    },
+    "u-18tb1": {
+      "sockets": 8,
+      "total_cores": 224,
+      "core_per_size": {
+        "112xlarge": 224,
+        "metal": 224
+      }
+    },
+    "u-24tb1": {
+      "sockets": 8,
+      "total_cores": 224,
+      "core_per_size": {
+        "112xlarge": 224,
+        "metal": 224
+      }
+    },
+    "u7i-6tb": {
+      "sockets": 4,
+      "total_cores": 224,
+      "core_per_size": {
+        "112xlarge": 224
+      }
+    },
+    "u7i-8tb": {
+      "sockets": 4,
+      "total_cores": 224,
+      "core_per_size": {
+        "112xlarge": 224
+      }
+    },
+    "u7i-12tb": {
+      "sockets": 8,
+      "total_cores": 448,
+      "core_per_size": {
+        "224xlarge": 448
+      }
+    },
+    "u7in-16tb": {
+      "sockets": 8,
+      "total_cores": 448,
+      "core_per_size": {
+        "224xlarge": 448
+      }
+    },
+    "u7in-24tb": {
+      "sockets": 8,
+      "total_cores": 448,
+      "core_per_size": {
+        "224xlarge": 448
+      }
+    },
+    "u7in-32tb": {
+      "sockets": 8,
+      "total_cores": 448,
+      "core_per_size": {
+        "224xlarge": 448
+      }
+    }
+  }
+}
