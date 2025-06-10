@@ -357,9 +357,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🙋‍♂️ Support
 
-- **Issues**: [GitHub Issues](https://github.com/your-username/aws-dedicated-host-calculator/issues)
-- **Documentation**: [Wiki](https://github.com/your-username/aws-dedicated-host-calculator/wiki)
-- **Email**: your-email@example.com
+- **Linkedin**: https://www.linkedin.com/in/ozkanpoyrazoglu/
 
 ## 🚀 Roadmap
 
